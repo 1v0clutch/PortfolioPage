@@ -164,17 +164,15 @@ section {
   position: relative;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  text-align: left;
+  align-items: center;
+  text-align: center;
   overflow: hidden;
-  padding-left: 8%;
-  padding-right: 8%;
 }
 
 .hero-blob {
   position: absolute;
   top: 50%;
-  left: 30%;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 560px;
   height: 560px;
@@ -219,7 +217,7 @@ section {
 .hero-cta {
   display: flex;
   gap: 1rem;
-  justify-content: flex-start;
+  justify-content: center;
   margin-top: 2rem;
   flex-wrap: wrap;
 }
@@ -508,13 +506,6 @@ section {
   overflow: hidden;
 }
 
-.contact-grid {
-  display: grid;
-  grid-template-columns: 1fr 1.4fr;
-  gap: 4rem;
-  align-items: start;
-}
-
 .contact-info p {
   color: var(--muted);
   margin-bottom: 2rem;
@@ -543,68 +534,16 @@ section {
 }
 
 .contact-list a {
+  display: inline-block;
   color: var(--muted);
   font-size: 0.95rem;
-  transition: color 0.2s;
+  transition: color 0.2s, transform 0.2s;
 }
 
 .contact-list a:hover {
   color: var(--text);
+  transform: translateX(5px);
 }
-
-/* Contact Form */
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1.1rem;
-}
-
-.form-group {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-}
-
-.form-group label {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--text);
-}
-
-.form-group input,
-.form-group textarea {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 0.75rem 1rem;
-  color: var(--text);
-  font-family: inherit;
-  font-size: 0.95rem;
-  transition: border-color 0.2s, box-shadow 0.2s;
-  resize: vertical;
-  outline: none;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(56,189,248,0.15);
-}
-
-.form-group input::placeholder,
-.form-group textarea::placeholder {
-  color: var(--muted);
-  opacity: 0.7;
-}
-
-.form-status {
-  font-size: 0.88rem;
-  min-height: 1.2em;
-  text-align: center;
-}
-
-.form-status.success { color: #4ade80; }
-.form-status.error   { color: #f87171; }
 
 /* ===== Footer ===== */
 footer {
@@ -850,11 +789,6 @@ footer {
   .about-avatar {
     display: flex;
     justify-content: center;
-  }
-
-  .contact-grid {
-    grid-template-columns: 1fr;
-    gap: 2.5rem;
   }
 }
 
