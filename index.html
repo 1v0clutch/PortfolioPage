@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steven Clyde | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <a class="logo" href="#home">
+      <img src="/me.jpg" alt="Logo" class="logo-img">
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="hero-greeting" data-animate="fade-down">Hello, I'm</p>
+      <h1 data-animate="fade-up" data-delay="100">Steven<span class="accent"> Clyde</span></h1>
+      <p class="hero-sub" data-animate="fade-up" data-delay="200">IT Graduate &nbsp;·&nbsp; Developer &nbsp;·&nbsp; Designer</p>
+      <div class="hero-cta" data-animate="fade-up" data-delay="350">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-blob" aria-hidden="true"></div>
+    <div class="particles" aria-hidden="true">
+      <span class="particle"></span><span class="particle"></span>
+      <span class="particle"></span><span class="particle"></span>
+      <span class="particle"></span><span class="particle"></span>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="section-inner">
+      <span class="section-tag" data-animate="fade-right">Get to know me</span>
+      <h2 class="section-title" data-animate="fade-right" data-delay="80">About Me</h2>
+      <div class="about-grid">
+        <div class="about-avatar" aria-hidden="true" data-animate="zoom-in" data-delay="100">
+          <img src="/me.jpg" alt="Profile photo" class="avatar-img">
+        </div>
+        <div class="about-text" data-animate="fade-left" data-delay="200">
+          <p>Hi! I'm a passionate IT graduate who loves building clean, user-friendly digital experiences. I enjoy working across the full stack — from designing intuitive interfaces to writing efficient back-end logic.</p>
+          <p>When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or levelling up my design skills.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="section-inner">
+      <span class="section-tag" data-animate="fade-right">What I work with</span>
+      <h2 class="section-title" data-animate="fade-right" data-delay="80">Skills</h2>
+      <div class="skills-grid">
+        <a href="#projects">
+        <div class="skill-card" data-animate="flip-up" data-delay="0">
+          <div class="skill-icon" aria-hidden="true">💻</div>
+          <h3>Web Development</h3>
+          <p>HTML, CSS, JavaScript, React</p>
+        </div>
+        </a>
+        <a href="#projects">
+        <div class="skill-card" data-animate="flip-up" data-delay="100">
+          <div class="skill-icon" aria-hidden="true">🎮</div>
+          <h3>Game Development</h3>
+          <p>Unity, C#, Piskel</p>
+        </div>
+        </a>
+        <a href="https://www.instagram.com/1v0_1v0_/" target="_blank">
+        <div class="skill-card" data-animate="flip-up" data-delay="200">
+          <div class="skill-icon" aria-hidden="true">🎨</div>
+          <h3>Digital Artwork</h3>
+          <p>Photoshop, Pencil2D</p>
+        </div>
+        </a>
+        <a href="https://www.youtube.com/@1v0Edits" target="_blank">
+        <div class="skill-card" data-animate="flip-up" data-delay="300">
+          <div class="skill-icon" aria-hidden="true">🎬</div>
+          <h3>Video Editing</h3>
+          <p>Capcut, Filmora</p>
+        </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="section-inner">
+      <span class="section-tag" data-animate="fade-up">What I've built</span>
+      <h2 class="section-title" data-animate="fade-up" data-delay="80">Projects</h2>
+
+      <div class="carousel" data-animate="fade-up" data-delay="180" role="region" aria-label="Projects carousel">
+        <div class="carousel-track-wrapper">
+          <div class="carousel-track" id="carouselTrack">
+
+            <article class="card">
+              <a href="https://drive.google.com/drive/folders/1DxHx88sSxPs1tqGek2Zd1Gi3SVJtYLUi?usp=drive_link">
+              <div class="card-top">
+                <span class="card-icon" aria-hidden="true">🎮</span>
+              </div>
+              <h3>Syntax Slayer</h3>
+              <p>An android educational mobile game that is used as a supplementary tool for learning Java programming</p>
+              <div class="card-tags">
+                <span>Unity</span><span>C#</span><span>Piskel</span>
+              </div>
+              </a>
+            </article>
+
+            <article class="card">
+              <a href="https://proximity-matrix.vercel.app/" target="_blank">
+              <div class="card-top">
+                <span class="card-icon" aria-hidden="true">🗺️</span>
+              </div>
+              <h3>Architecture Proximity Matrix</h3>
+              <p>A toggleable chart that enables architecture students to view and assess landmarks in different locations</p>
+              <div class="card-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              </a>
+            </article>
+
+            <article class="card">
+              <a href="https://travel-fare-system.vercel.app/" target="_blank">
+              <div class="card-top">
+                <span class="card-icon" aria-hidden="true">🚌</span>
+              </div>
+              <h3>Travel Fare System</h3>
+              <p>A philippine-based fare system that enables users to set from point A to point B and determine its fare based on distance</p>
+              <div class="card-tags">
+                <span>React</span><span>Leaflet</span>
+              </div>
+              </a>
+            </article>
+
+            <article class="card">
+              <a href="" target="_blank">
+              <div class="card-top">
+                <span class="card-icon" aria-hidden="true">📊</span>
+                <span class="card-lock" aria-label="Private project">🔒</span>
+              </div>
+              <h3>Sales Graph System</h3>
+              <p>A small scale web-based sales tracking system to record and manage sales, stock, and revenue data.</p>
+              <div class="card-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span>
+              </div>
+              </a>
+            </article>
+
+            <article class="card">
+              <a href="#">
+              <div class="card-top">
+                <span class="card-icon" aria-hidden="true">📅</span>
+                <span class="card-lock" aria-label="Private project">🔒</span>
+              </div>
+              <h3>CEIT Event Management System</h3>
+              <p>A web-based system that centralizes event management with invitation system for College of Engineering and Information Technology faculty members</p>
+              <div class="card-tags">
+                <span>React</span><span>Laravel PHP</span><span>Supabase</span><span>Vercel</span><span>Railway</span>
+              </div>
+              </a>
+            </article>
+            
+
+          </div><!-- /.carousel-track -->
+        </div><!-- /.carousel-track-wrapper -->
+
+        <div class="carousel-controls">
+          <button class="carousel-btn" id="carouselPrev" aria-label="Previous project">&#8592;</button>
+          <div class="carousel-dots" id="carouselDots" role="tablist" aria-label="Project slides"></div>
+          <button class="carousel-btn" id="carouselNext" aria-label="Next project">&#8594;</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="section-inner">
+      <span class="section-tag" data-animate="fade-up">Let's talk</span>
+      <h2 class="section-title" data-animate="fade-up" data-delay="80">Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-info" data-animate="fade-right" data-delay="150">
+          <p>I'm open to new opportunities, collaborations, or just a friendly chat. Drop me a message and I'll get back to you soon.</p>
+          <ul class="contact-list" aria-label="Contact details">
+            <li data-animate="fade-right" data-delay="200">
+              <span class="contact-label">Email</span>
+              <a href="mailto:steven.maranan10@gmail.com">steven.maranan10@gmail.com</a>
+            </li>
+            <li data-animate="fade-right" data-delay="360">
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/1v0clutch" target="_blank" rel="noopener noreferrer">github.com/1v0clutch</a>
+            </li>
+          </ul>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate data-animate="fade-left" data-delay="200">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="What's on your mind?" required></textarea>
+          </div>
+          <!-- honeypot field — hidden from real users, catches bots -->
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">Send Message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Designed &amp; built by <span class="accent">Steven Clyde E. Maranan</span> · <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
