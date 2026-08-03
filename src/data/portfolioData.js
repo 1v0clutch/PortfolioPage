@@ -74,11 +74,11 @@ export const portfolioData = {
     ]
   },
   'video-editing': {
-    title: 'Digital Art',
+    title: 'Video Editing',
     projects: [
       {
-        name: 'Instagram Portfolio',
-        preview: 'Digital artwork collection',
+        name: 'Video Edits',
+        preview: 'Video Recordings and Collections',
         description: 'A portfolio showcasing a variety of video editing projects, including cinematic edits, promotional videos, social media content, etc.',
         image: 'assets/images/video-editing.PNG',
         tech: ['Youtube', 'Tiktok', 'Capcut', 'OBS Studio', 'Filmora'],

@@ -40,7 +40,7 @@ export default function Portfolio() {
   const project = portfolioData[currentCategory].projects[currentProject];
 
   return (
-    <section id="portfolio" className="bg-[rgba(30,41,59,0.3)] min-h-screen h-screen flex items-center pt-[72px] pb-0 px-[8%] overflow-hidden max-md:h-auto max-md:min-h-screen max-md:overflow-visible max-md:pt-[calc(72px+40px)] max-md:pb-[60px]">
+    <section id="portfolio" className="bg-[rgba(30,41,59,0.3)] min-h-screen h-screen flex items-center pt-[calc(72px+40px)] pb-20 px-[8%] overflow-hidden max-md:h-auto max-md:min-h-screen max-md:overflow-visible max-md:pt-[calc(72px+40px)] max-md:pb-20">
       <div className="section-inner w-full max-w-[1100px] mx-auto h-[calc(100vh-72px)] flex flex-col py-6 max-md:h-auto max-md:py-6">
         <span 
           className="section-tag inline-block text-[0.7rem] font-semibold uppercase tracking-[0.12em] text-accent mb-1"

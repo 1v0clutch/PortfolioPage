@@ -5,9 +5,10 @@ export default function About() {
   
   // Array of images to rotate through
   const images = [
-    '/assets/images/me.jpg',
-    '/assets/images/profile1.jfif', // Add more images here when available
-    '/assets/images/profile2.jfif'  // Add more images here when available
+    '/assets/images/capstone.jpg',
+    '/assets/images/OJT.jpg',
+    '/assets/images/narrative.jfif', 
+    '/assets/images/ceit-colloquium.jpg'
   ];
 
   // Auto-rotate images every 3 seconds
@@ -20,7 +21,7 @@ export default function About() {
   }, [images.length]);
 
   return (
-    <section id="about" className="flex items-center min-h-screen px-[8%] pt-[calc(72px+60px)] pb-20">
+    <section id="about" className="flex items-center min-h-screen px-[8%] pt-[calc(72px+40px)] pb-20">
       <div className="section-inner w-full max-w-[1100px] mx-auto">
         <span 
           className="section-tag inline-block text-[0.8rem] font-semibold uppercase tracking-[0.12em] text-accent mb-2"
@@ -35,10 +36,10 @@ export default function About() {
         >
           About Me
         </h2>
-        <div className="about-grid grid grid-cols-[1fr_450px] gap-12 items-center max-md:grid-cols-1 max-md:text-center max-md:gap-8">
+        <div className="about-grid grid grid-cols-1 md:grid-cols-[1fr_450px] gap-8 md:gap-12 items-center">
           {/* Text on Left */}
           <div 
-            className="about-text order-1"
+            className="about-text order-2 md:order-1"
             data-animate="fade-right" 
             data-delay="100"
           >
@@ -54,11 +55,11 @@ export default function About() {
           
           {/* Rotating Rectangular Images on Right */}
           <div 
-            className="about-image-container relative order-2 max-md:order-first max-md:mx-auto"
+            className="about-image-container relative order-1 md:order-2 w-full max-w-[400px] md:max-w-none mx-auto"
             data-animate="fade-left" 
             data-delay="200"
           >
-            <div className="about-image-wrapper relative w-full h-[500px] rounded-2xl overflow-hidden shadow-[0_0_60px_rgba(56,189,248,0.3)]">
+            <div className="about-image-wrapper relative w-full h-[350px] md:h-[500px] rounded-2xl overflow-hidden shadow-[0_0_60px_rgba(56,189,248,0.3)]">
               {images.map((image, index) => (
                 <img 
                   key={index}

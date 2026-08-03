@@ -59,7 +59,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="bg-[rgba(30,41,59,0.3)] min-h-screen h-screen flex items-center pt-[calc(72px+20px)] pb-5 px-[8%] overflow-hidden max-md:h-auto max-md:min-h-0 max-md:overflow-visible max-md:pt-[calc(72px+40px)] max-md:pb-[60px]">
+    <section id="contact" className="bg-[rgba(30,41,59,0.3)] min-h-screen h-screen flex items-center pt-[calc(72px+40px)] pb-20 px-[8%] overflow-hidden max-md:h-auto max-md:min-h-0 max-md:overflow-visible max-md:pt-[calc(72px+40px)] max-md:pb-20">
       <div className="section-inner w-full max-w-[1100px] mx-auto h-[calc(100vh-72px-40px)] flex flex-col max-md:h-auto">
         <span 
           className="section-tag inline-block text-[0.7rem] font-semibold uppercase tracking-[0.12em] text-accent mb-1"
@@ -176,34 +176,17 @@ export default function Contact() {
               data-animate="fade-up" 
               data-delay="200"
             >
-              <h3 className="text-base font-bold text-text m-0 tracking-wide">Email</h3>
-              <a 
-                href="mailto:steven.maranan10@gmail.com"
+              <h3 className="text-base font-bold text-text m-0 tracking-wide">Emails</h3>
+              <p 
                 className="block text-muted text-[0.85rem] transition-all duration-200 leading-relaxed pl-0 hover:text-accent hover:translate-x-1"
               >
                 steven.maranan10@gmail.com
-              </a>
-              <a 
-                href="mailto:preserving123@gmail.com"
+              </p>
+              <p 
                 className="block text-muted text-[0.85rem] transition-all duration-200 leading-relaxed pl-0 hover:text-accent hover:translate-x-1"
               >
                 preserving123@gmail.com
-              </a>
-            </div>
-            <div 
-              className="contact-card flex flex-col gap-2 p-0 border-none bg-transparent transition-transform duration-200 flex-shrink-0 hover:translate-x-1"
-              data-animate="fade-up" 
-              data-delay="250"
-            >
-              <h3 className="text-base font-bold text-text m-0 tracking-wide">LinkedIn</h3>
-              <a 
-                href="https://www.linkedin.com/in/steven-clyde-maranan" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block text-muted text-[0.85rem] transition-all duration-200 leading-relaxed pl-0 hover:text-accent hover:translate-x-1"
-              >
-                Connect with me
-              </a>
+              </p>
             </div>
           </div>
         </div>
