@@ -46,7 +46,7 @@ export const portfolioData = {
         name: 'Kiosk Website',
         preview: 'Store operations kiosk',
         description: 'A user-friendly sales kiosk website designed to improve store operations and customer convenience. Built for speed and ease of use.',
-        image: '',
+        image: '/assets/images/kiosk-store.PNG',
         tech: ['React', 'MySQL'],
         link: '#'
       },
