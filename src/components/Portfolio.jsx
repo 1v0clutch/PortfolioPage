@@ -10,6 +10,7 @@ export default function Portfolio() {
   const categories = {
     'web-dev': { icon: '💻', title: 'Web Development' },
     'digital-art': { icon: '🎨', title: 'Digital Art' },
+    'video-editing': { icon: '🎥', title: 'Video Editing' },
     'game-dev': { icon: '🎮', title: 'Game Development' }
   };
 

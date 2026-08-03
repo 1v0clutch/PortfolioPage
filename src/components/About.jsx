@@ -6,8 +6,8 @@ export default function About() {
   // Array of images to rotate through
   const images = [
     '/assets/images/me.jpg',
-    '/assets/images/me.jpg', // Add more images here when available
-    '/assets/images/me.jpg'  // Add more images here when available
+    '/assets/images/profile1.jfif', // Add more images here when available
+    '/assets/images/profile2.jfif'  // Add more images here when available
   ];
 
   // Auto-rotate images every 3 seconds

@@ -67,9 +67,22 @@ export const portfolioData = {
         name: 'Instagram Portfolio',
         preview: 'Digital artwork collection',
         description: 'A curated collection of digital artworks showcasing various styles and techniques. Created using professional design software and digital illustration tools.',
-        image: '',
+        image: 'assets/images/portfolio-digital.PNG',
         tech: ['Photoshop', 'Pencil2D'],
         link: 'https://www.instagram.com/1v0_1v0_/'
+      }
+    ]
+  },
+  'video-editing': {
+    title: 'Digital Art',
+    projects: [
+      {
+        name: 'Instagram Portfolio',
+        preview: 'Digital artwork collection',
+        description: 'A portfolio showcasing a variety of video editing projects, including cinematic edits, promotional videos, social media content, etc.',
+        image: 'assets/images/video-editing.PNG',
+        tech: ['Youtube', 'Tiktok', 'Capcut', 'OBS Studio', 'Filmora'],
+        link: '#'
       }
     ]
   },
